@@ -1,0 +1,14 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: eagle-demo
+
+eagle:
+  config:
+    enabled: true
+    zk-address: 127.0.0.1:2181,127.0.0.1:2182,127.0.0.1:2183
+    env: dev
+    group-id: order-service
+    root-path: /config
